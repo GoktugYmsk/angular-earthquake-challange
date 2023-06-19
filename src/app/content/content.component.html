@@ -1,0 +1,19 @@
+<div class="content-container">
+    <ul class="earthquake-list" *ngFor="let earthquake of earthquakes">
+        <div class="earthquake-item">
+            <li>
+                Şehir: {{ earthquake.title }}
+            </li>
+            <li>
+                Derinlik: {{ earthquake.depth }}
+            </li>
+            <li>
+                Lokasyon: {{ earthquake.location_tz }}
+            </li>
+            <li>
+                Tarih: {{ earthquake.date_time }}
+            </li>
+        </div>
+    </ul>
+
+</div>
