@@ -4,6 +4,7 @@
     width: 774px;
     height: 125px;
     position: fixed;
+    top: 0;
     transform: translateX(-47.4%);
     background: white;
     left: 50%;

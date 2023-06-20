@@ -1,0 +1,21 @@
+.lowerBar {
+    display: flex;
+    align-items: center;
+    width: 774px;
+    height: 125px;
+    position: fixed;
+    bottom: 0;
+    transform: translateX(-47.4%);
+    background: white;
+    left: 50%;
+    z-index: 2;
+}
+.lowerBar-ul{
+    display: flex;
+    text-decoration: none !important;
+}
+
+li{
+    margin-left: 60px;
+    text-decoration: none !important;
+ }

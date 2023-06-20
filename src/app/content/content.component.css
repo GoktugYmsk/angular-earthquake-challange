@@ -1,19 +1,14 @@
 .content-container {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    box-shadow: 0 0 4px 2px rgb(88, 88, 88);
-    height: 600px;
-    margin-left: 40px;
-    width: 774px;
-    margin-top: 140px;
-    overflow: auto;
+    margin-top: 120px;
 }
 
 .earthquake-list {
     display: flex;
     background: rgb(158, 255, 158);
-    border-radius: 30px;
+    border-radius: 10px;
+    height: 80px;
     width: 600px !important;
 
 }
@@ -21,9 +16,23 @@
 .earthquake-item {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 10px;
+    justify-content: space-between;
     height: 100px !important;
 
+}
+
+.earthquake-item li {
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.earthquake-item_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.earthquake-item_right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
 }
