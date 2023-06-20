@@ -19,3 +19,7 @@ li{
     margin-left: 60px;
     text-decoration: none !important;
  }
+ 
+ .lowerBar-ul p{
+    cursor: pointer;
+ }

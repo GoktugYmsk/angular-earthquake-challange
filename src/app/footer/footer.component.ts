@@ -1,4 +1,3 @@
-
 import { Component } from '@angular/core';
 
 @Component({
@@ -8,15 +7,12 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
   handleRefreshClick(): void {
-    // Yenileme işlemlerini burada gerçekleştirin
+    location.reload();
   }
 
   handleMagnifyingClick(): void {
-    // Filtreleme işlemlerini burada gerçekleştirin
   }
 
   boot(): void {
-    // İstatistik işlemlerini burada gerçekleştirin
   }
 }
-
